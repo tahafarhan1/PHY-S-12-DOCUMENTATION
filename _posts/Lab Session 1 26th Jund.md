@@ -12,7 +12,7 @@ After we lit up the LED we connected the circuit to our laptops and used the Ard
 
 ### Blink
 
-  Turns an LED on for one second, then off for one second, repeatedly.
+  `Turns an LED on for one second, then off for one second, repeatedly.
 
   Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
   it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to
@@ -50,7 +50,7 @@ void loop() {
 
 ### Fade
 
-  This example shows how to fade an LED on pin 9 using the analogWrite()
+  `This example shows how to fade an LED on pin 9 using the analogWrite()
   function.
 
   The analogWrite() function uses PWM, so if you want to change the pin you're
@@ -86,7 +86,7 @@ void loop() {
   }
   // wait for 30 milliseconds to see the dimming effect
   delay(30);
-}
+}`
 
 
 ### Soldering Iron
